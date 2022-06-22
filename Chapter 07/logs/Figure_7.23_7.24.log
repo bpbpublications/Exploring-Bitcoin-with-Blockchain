@@ -1,0 +1,60 @@
+Trying to connect to  ('62.171.169.158', 18333)
+connected
+==> cmd = version, msg = 0b11090776657273696f6e00000000006800000074ce60817f110100010000000000000050bf306200000000010000000000000000000000000000000000ffffc0a80009eb1a0100000000000000000000000000000000000000000000000000bfb32fc512e8dbba132f4d79546573744167656e743a302e302e312f666a2100
+Magic check passed
+checksum check passed
+<== msg = {'magic': '0709110b', 'command': 'version', 'length': 115, 'checksum': b'\xf3\xabR\xb5', 'payload': {'version': 70015, 'services': 1033, 'timestamp': 1647361872, 'dt': '2022-03-15 22:01:12', 'addr_recv': {'service': 0, 'version': 'IPv4', 'address': '49.205.147.186', 'port': 3148}, 'addr_trans': {'service': 1033, 'version': 'IPv6', 'address': '::', 'port': 0}, 'nonce': 10365779179765275043, 'user_agent_size': 29, 'user_agent': b'/Satoshi:0.20.1(Omni:0.11.0)/', 'block_height': 2189926, 'relay': 1}}
+==> cmd = verack, msg = 0b11090776657261636b000000000000000000005df6e0e2
+Magic check passed
+checksum check passed
+<== msg = {'magic': '0709110b', 'command': 'verack', 'length': 0, 'checksum': b']\xf6\xe0\xe2', 'payload': {}}
+Connection is established
+Magic check passed
+checksum check passed
+<== msg = {'magic': '0709110b', 'command': 'sendheaders', 'length': 0, 'checksum': b']\xf6\xe0\xe2', 'payload': {}}
+Magic check passed
+checksum check passed
+<== msg = {'magic': '0709110b', 'command': 'sendcmpct', 'length': 9, 'checksum': b'\xe9/^\xf8', 'payload': {'announce': 0, 'version': 2}}
+Magic check passed
+checksum check passed
+<== msg = {'magic': '0709110b', 'command': 'sendcmpct', 'length': 9, 'checksum': b'\xcc\xfe\x10J', 'payload': {'announce': 0, 'version': 1}}
+Magic check passed
+checksum check passed
+<== msg = {'magic': '0709110b', 'command': 'ping', 'length': 8, 'checksum': b'\x94\xbe\x9b:', 'payload': {'nonce': 16709130710587834134}}
+==> cmd = pong, msg = 0b110907706f6e6700000000000000000800000094be9b3a167f283edac1e2e7
+Magic check passed
+checksum check passed
+<== msg = {'magic': '0709110b', 'command': 'addr', 'length': 31, 'checksum': b'\xcc)\xb6\r', 'payload': {'count': 1, 'addrs': [{'timestamp': 1647361873, 'addr': {'service': 1033, 'version': 'IPv4', 'address': '62.171.169.158', 'port': 18333}}]}}
+Magic check passed
+checksum check passed
+<== msg = {'magic': '0709110b', 'command': 'getheaders', 'length': 1093, 'checksum': b'\x98Bq\x0c', 'payload': {'version': 70015, 'hash count': 33, 'block locator hashes': ['0000000000000084d4d6c5d93891cb7c30ebef1af50df2c244a09d31937b4447', '000000000a6101400b968dc1c81e13cba85870c08f98ae0680729f613690da8e', '000000003d903285fad25fdb059f9f30c35041325e6cfa325569c5f2de89c797', '000000000000006c4f4bca8a27d52ca7e5241b0ac75cbed17fe4d14f917587d2', '00000000be7c8c7ded8075c36356dfbda7594a5af97f22b0417675a4e8831e6f', '00000000000000594f5a887848f8e5b114829a2b1ae058f62f0e21cd60ecdfa0', '000000004d48b6d2061f1ff37f32572236a4b11f27e6f323aa3919c4eeb6190c', '000000000000005463a9e4623a19c2aa380a21c6c1e35ad9cfdb791cc91daec3', '000000000000caf4cfb173789c993e03f62f3aa66b2e4a32a073df64d45a30fa', '00000000000000a7d88534c028276a685eeeecaebb01308d891de5d420e28fa5', '0000000000000009f8c382bceadb0e08ab7decaa0cf73522ba8f791ad4a47b9c', '00000000000000831c3953e57034fb26cbed64718dd44a211195d859c577ddc8', '00000000000000bdd209b7b4d010dd0f06e7beb2769e50ff7e1f655fb558f317', '0000000000000089bfc843cb404ca005a02409211ac2781cde4c398b268a2e03', '000000000000008bc833d9c413874137ae22187a529573c9aa4660709edd6097', '0000000000000061d7dc1a225e2b1f6e1d406a2aa0df72c5eac5ff610fe3e55a', '00000000000000722f1973ac43d9fc71d1625f19d8f424b03aa47e1b1493be72', '0000000000000057d80a0366d6b738bec75d9256aa1b65c95b81510a619c4b5e', '00000000000000982b898edb4435ffd29be422bbadf87dcad4e27de12551bf91', '000000000000006f77ca21c90f773b3605c1da99c4f4b3443ed7081ab6596eec', '00000000000001ea9cd2e29424dd39ecb9ceb35d0b3dbd08ece9b13a35da40b1', '000000000000034bfdae45b03e3455bfc24d7bcb90ded13337f3bc8ce8efa89a', '0000000000000e0d71a4ce734706a21a4894919f495a86c79f9481f71a4af8df', '000000000000250a57e9e65f9bdb3236d483211ccc7ac28de95f405a522a5352', '000000000000dac238f638beac3df73bd736bbcf229381abca5e9b2daea426d0', '0000000000005fad011d42ac4b8d72ba88c151de68c7ac1174768401bdd694cc', '000000000000cce45ea3936f81087f5b587debba649e17ee4bc9031622cbf78a', '000000000000002296cab0a9b6b4686d8fe84e3e22721c75409e45f94bb1c503', '00000000000003aff042b5f522b710fbf3c0b80ec893ac5be5eb4f225b50219f', '000000006c4f3d93eb5b0190dbd7c675d4f8391bb30005b6b16b34740d634193', '0000000000050e44b3f06b99887f5e3c890fd7134298d726b78a3f26affb85a4', '0000000000aa8eb22e2e00d85b6cb653e8fc273825dccff5ef7882de9838df39', '000000000933ea01ad0ee984209779baaec3ced90fa3f408719526f8d77f4943'], 'hash_stop': '0000000000000000000000000000000000000000000000000000000000000000'}}
+Magic check passed
+checksum check passed
+<== msg = {'magic': '0709110b', 'command': 'feefilter', 'length': 8, 'checksum': b'$g\xf1\x1d', 'payload': {'feerate': 100}}
+Magic check passed
+checksum check passed
+<== msg = {'magic': '0709110b', 'command': 'inv', 'length': 37, 'checksum': b'\xeb\xfd\x84A', 'payload': {'count': 1, 'inventory': [{'type': 1, 'hash': '8f5036c80890ece56080f58dbc6a6dc642e41d44cc141e4b779e3ce0b5916d91'}]}}
+Received INV
+==> cmd = getdata, msg = 0b11090767657464617461000000000025000000ebfd84410101000000916d91b5e03c9e774b1e14cc441de442c66d6abc8df58060e5ec9008c836508f
+Magic check passed
+checksum check passed
+<== msg = {'magic': '0709110b', 'command': 'tx', 'length': 352, 'checksum': b'\x91m\x91\xb5', 'payload': {'version': 1, 'tx_in count': 1, 'tx_in': [{'prev_tx_hash': 'bd0fb2f147d44d5310b16e774a5c9f3092f87d5b93c4b200edb122b9f70bab1c', 'prev_tx_out_index': 3, 'bytes_scriptsig': 107, 'sriptsig': '48304502210088bca97ef5a0b3d474ae97aee30a077d4387dd88d59c9b65f1dc6aff9e92dfd402201172eae40407dcb4a251f62583e75436122947b6ee514c2f28afa922d9d6d3ac0121037435c194e9b01b3d7f7a2802d6684a3af68d05bbf4ec8f17021980d777691f1d', 'sequence': 'fffffffd'}], 'tx_out count': 4, 'tx_out': [{'satoshis': 5500, 'bytes_scriptpubkey': 83, 'scriptpubkey': '6a4c5054325b3c1a7819edc7d1f40ebaae5360e3e35c1f43c67ff81e29f0a8fdd094c83bee56702bc2bfa7938f78cddcfaf9df52482867ef610baf79d931da08d821b4df555100216a6600030020a764000129'}, {'satoshis': 7775, 'bytes_scriptpubkey': 25, 'scriptpubkey': '76a914000000000000000000000000000000000000000088ac'}, {'satoshis': 7775, 'bytes_scriptpubkey': 25, 'scriptpubkey': '76a914000000000000000000000000000000000000000088ac'}, {'satoshis': 447408550, 'bytes_scriptpubkey': 25, 'scriptpubkey': '76a914ba27f99e007c7f605a8305e318c1abde3cd220ac88ac'}], 'locktime': 0}}
+Magic check passed
+checksum check passed
+<== msg = {'magic': '0709110b', 'command': 'inv', 'length': 37, 'checksum': b'\xf7@(h', 'payload': {'count': 1, 'inventory': [{'type': 1, 'hash': '3c8f22f895a78cf0fb03cb8194795691dbbd90a5fc8f26e534df99d4b4975def'}]}}
+Received INV
+==> cmd = getdata, msg = 0b11090767657464617461000000000025000000f74028680101000000ef5d97b4d499df34e5268ffca590bddb9156799481cb03fbf08ca795f8228f3c
+Magic check passed
+checksum check passed
+<== msg = {'magic': '0709110b', 'command': 'tx', 'length': 113, 'checksum': b'\xef]\x97\xb4', 'payload': {'version': 2, 'tx_in count': 1, 'tx_in': [{'prev_tx_hash': '1ae85f14feed7d34bd7e7c30bf04fe4b8157ce1ec85be637779a3f70d210f5ae', 'prev_tx_out_index': 0, 'bytes_scriptsig': 0, 'sriptsig': '', 'sequence': 'fffffffe'}], 'tx_out count': 2, 'tx_out': [{'satoshis': 1440928, 'bytes_scriptpubkey': 22, 'scriptpubkey': '0014894e508273130cb5ae240b9d156c8e8b9e39cfd8'}, {'satoshis': 74000, 'bytes_scriptpubkey': 22, 'scriptpubkey': '001458617b129a9988defa9470519f5e2b9ebca186a4'}], 'locktime': 2189926}}
+Magic check passed
+checksum check passed
+<== msg = {'magic': '0709110b', 'command': 'inv', 'length': 73, 'checksum': b'\xe2\xd8\x93\x00', 'payload': {'count': 2, 'inventory': [{'type': 1, 'hash': 'd9dd670ad7e58241d739465cd97ad05d132091d9a9402f33182f92b5892f9a12'}, {'type': 1, 'hash': 'db497add1f07a69cdfdf02823d088c9e2120cc86882e58a9c7f1e7dd53e71a99'}]}}
+Received INV
+==> cmd = getdata, msg = 0b11090767657464617461000000000049000000e2d893000201000000129a2f89b5922f18332f40a9d99120135dd07ad95c4639d74182e5d70a67ddd901000000991ae753dde7f1c7a9582e8886cc20219e8c083d8202dfdf9ca6071fdd7a49db
+Magic check passed
+checksum check passed
+<== msg = {'magic': '0709110b', 'command': 'tx', 'length': 145, 'checksum': b'\x12\x9a/\x89', 'payload': {'version': 1, 'tx_in count': 1, 'tx_in': [{'prev_tx_hash': 'bdbda52ffb96fab89ee8b7aae22db2b2e28fd7321edf1c66fb761210bad82dbf', 'prev_tx_out_index': 1, 'bytes_scriptsig': 0, 'sriptsig': '', 'sequence': 'ffffffff'}], 'tx_out count': 3, 'tx_out': [{'satoshis': 100000, 'bytes_scriptpubkey': 22, 'scriptpubkey': '00142fbd5d6a2f2e73be1948a626c304da4f3b517b30'}, {'satoshis': 100000, 'bytes_scriptpubkey': 23, 'scriptpubkey': 'a9147882b500f9beeb282bf12d5d42810975f5dd8df887'}, {'satoshis': 9664111, 'bytes_scriptpubkey': 22, 'scriptpubkey': '00145caf69c40603ea42c26a5b6a0571948bfc6f3a0f'}], 'locktime': 0}}
+Magic check passed
+checksum check passed
+<== msg = {'magic': '0709110b', 'command': 'tx', 'length': 372, 'checksum': b'\x99\x1a\xe7S', 'payload': {'version': 1, 'tx_in count': 8, 'tx_in': [{'prev_tx_hash': 'a27f05c9d57442a563af09f627c6d2bb345d8739a677fa3838afa399a8ab69e0', 'prev_tx_out_index': 0, 'bytes_scriptsig': 0, 'sriptsig': '', 'sequence': 'ffffffff'}, {'prev_tx_hash': 'a9fc98b2116c9aeff65d1323ea5fef181e3cfe7bf273560d9c05eb766c79a063', 'prev_tx_out_index': 0, 'bytes_scriptsig': 0, 'sriptsig': '', 'sequence': 'ffffffff'}, {'prev_tx_hash': 'bc6fe4d8b6b5bf15728ba803b96db596a4c4278b55d5e80da161fbbba93d4696', 'prev_tx_out_index': 0, 'bytes_scriptsig': 0, 'sriptsig': '', 'sequence': 'ffffffff'}, {'prev_tx_hash': 'a199251d3341d17676d24070f7f54829dda71121f135951b6073030931b8fd42', 'prev_tx_out_index': 1, 'bytes_scriptsig': 0, 'sriptsig': '', 'sequence': 'ffffffff'}, {'prev_tx_hash': '426326d83e8ea957ad48f4c785f9e724a7a171b526a9d78e0fd31e00311f5cd6', 'prev_tx_out_index': 1, 'bytes_scriptsig': 0, 'sriptsig': '', 'sequence': 'ffffffff'}, {'prev_tx_hash': '7d116117c9bfe25f039a32d173ae4ab3b697d9775196719d5c02a193f0e89fc3', 'prev_tx_out_index': 0, 'bytes_scriptsig': 0, 'sriptsig': '', 'sequence': 'ffffffff'}, {'prev_tx_hash': '18e01cfb20ef935b29d74431face05a371ba7ccf1f4c4b035136eef9245ca314', 'prev_tx_out_index': 0, 'bytes_scriptsig': 0, 'sriptsig': '', 'sequence': 'ffffffff'}, {'prev_tx_hash': '72538ec2660671130e127ac942993d13acc1cea9fe0642d2c4b7a080034a0ed1', 'prev_tx_out_index': 0, 'bytes_scriptsig': 0, 'sriptsig': '', 'sequence': 'ffffffff'}], 'tx_out count': 1, 'tx_out': [{'satoshis': 60000, 'bytes_scriptpubkey': 25, 'scriptpubkey': '76a914f4ec6062c52dfb779bc0f71cea7c647320558d6388ac'}], 'locktime': 0}}

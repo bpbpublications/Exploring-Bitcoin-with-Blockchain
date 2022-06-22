@@ -1,0 +1,14 @@
+Trying to connect to  ('172.105.14.149', 18333)
+connected
+==> cmd = version, msg = 0b11090776657273696f6e0000000000680000000401c01f7f1101000100000000000000d6282f6200000000010000000000000000000000000000000000ffffc0a80009d2560100000000000000000000000000000000000000000000000000ca07257bf07e6826132f4d79546573744167656e743a302e302e312fc2692100
+Magic check passed
+checksum check passed
+Services: 1037 implies: ['NODE_NETWORK', 'NODE_BLOOM', 'NODE_WITNESS', 'NODE_NETWORK_LIMITED']
+Services: 0 implies: ['Unnamed']
+Services: 1037 implies: ['NODE_NETWORK', 'NODE_BLOOM', 'NODE_WITNESS', 'NODE_NETWORK_LIMITED']
+<== msg = {'magic': '0709110b', 'command': 'version', 'length': 102, 'checksum': b'G\xe8\x9c\xee', 'payload': {'version': 70015, 'services': 1037, 'timestamp': 1647257815, 'dt': '2022-03-14 17:06:55', 'addr_recv': {'service': 0, 'version': 'IPv4', 'address': '49.205.150.158', 'port': 16100}, 'addr_trans': {'service': 1037, 'version': 'IPv6', 'address': '::', 'port': 0}, 'nonce': 5025925483529668082, 'user_agent_size': 16, 'user_agent': b'/Satoshi:0.18.1/', 'block_height': 2189762, 'relay': 1}}
+==> cmd = verack, msg = 0b11090776657261636b000000000000000000005df6e0e2
+Magic check passed
+checksum check passed
+<== msg = {'magic': '0709110b', 'command': 'verack', 'length': 0, 'checksum': b']\xf6\xe0\xe2', 'payload': {}}
+Connection is established

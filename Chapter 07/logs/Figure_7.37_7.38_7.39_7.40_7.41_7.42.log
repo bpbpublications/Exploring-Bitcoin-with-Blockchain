@@ -1,0 +1,163 @@
+Trying to connect to  ('3.17.246.73', 18333)
+connected
+==> cmd = version, msg = 0b11090776657273696f6e0000000000680000008fd4a3027f11010001000000000000002acc316200000000010000000000000000000000000000000000ffffc0a80009e1e80100000000000000000000000000000000000000000000000000fb09161a987d24ba132f4d79546573744167656e743a302e302e312fd86a2100
+Magic check passed
+checksum check passed
+<== msg = {'magic': '0709110b', 'command': 'version', 'length': 102, 'checksum': b'\x9d0\xecC', 'payload': {'version': 70015, 'services': 1033, 'timestamp': 1647430697, 'dt': '2022-03-16 17:08:17', 'addr_recv': {'service': 0, 'version': 'IPv4', 'address': '49.205.151.128', 'port': 26832}, 'addr_trans': {'service': 1033, 'version': 'IPv6', 'address': '::', 'port': 0}, 'nonce': 643260967078822258, 'user_agent_size': 16, 'user_agent': b'/Satoshi:0.20.1/', 'block_height': 2190040, 'relay': 1}}
+==> cmd = verack, msg = 0b11090776657261636b000000000000000000005df6e0e2
+Magic check passed
+checksum check passed
+<== msg = {'magic': '0709110b', 'command': 'verack', 'length': 0, 'checksum': b']\xf6\xe0\xe2', 'payload': {}}
+Connection is established
+==> cmd = sendheaders, msg = 0b11090773656e646865616465727300000000005df6e0e2
+==> cmd = sendcmpct, msg = 0b11090773656e64636d706374000000090000005f09f00d010200000000000000
+==> cmd = sendcmpct, msg = 0b11090773656e64636d706374000000090000002d13cb02010100000000000000
+==> cmd = getheaders, msg = 0b1109076765746865616465727300002504000040f4ff0b7f11010020cd6f604cda2f6cc3fba740bf605da308cfaa6bbf3d6a72773200000000000000f8c356fd14eba145094882bfb67c322ed2fa646281a1224aea00000000000000d0cd5c777a04f573f57bb35745b075253bdb2ba7c1d9c776d100000000000000964d18e2b6d809728fc6902225fface1c0bb780afe823ef47a00000000000000ed62edf54213bc99a362f16942e954583c58c3d096fddcde760000000000000001d894da05fa2a75269a1e8f51f147edbe749f43aea0468f62000000000000001fe028dedf1a685b917c202ec05c5a4e0d126dfe19068a3c6700000000000000a24e3e6931f821da2e563f8ca170cc24f875e03d1918d617acaa5a4a000000002117ff79f914c330bd4b1dfee89a5f9f1e15bf7550a4468d810000000000000022ba5aa10985ef26c9ec7b14323065b58cd382533ea57fd1ad00000000000000eea52b7204e82253fc0364ab98978d5166e3c59ecc4f07761900000000000000b55a3b0e1ed7af14a055cf2b4543ff62fedda3f8f827ed91910000000000000030b397d70849cd2564c69c155ffb44f6e65588290d8cb1221a00000000000000f4c2c44a16f4261726acc10fa06907cd51774eb97afc651271000000000000002320ab4aa8184d7b7e1b56d169c191e8c871e3d3c9efb8aba0000000000000007f41e6370e17fb6ad1dea085935e6dd505e8b15351958a07a300000000000000f6535c5246d3028b08eef4810e638eb3baa876388a0d5cd78100000000000000ec22268d05071b92ff3d6347e80b771a7a865365fe95c4e05200000000000000ddc2f3e25050504a6f0fbd081fbac7cf785e47c358eb68a611000000000000007c0f666889b1762948f435544fb19e15b2455a09048de09dde00000000000000e10267330d3f2d054fed73b5d124f8f1c16fdf2e5a96609eb200000000000000751e0a4df5d953f1abbb2a4397ebcdab8b5a395edff2eecb590000000000000068251a1ef6783cd6c52cd67078e9add27123f6db5b743f0c58000000000000003ba123f6e695c35ffc2a5f9fb7808d315729c47915af93125500000000000000710723e3b5ea5a3b2fedc80cca5cbf0649edfd753e68b18d7a000000000000001e5c9086ff8d28152d97a962d9f7780114725c88c0b6e493bd00000000000000f43187ccc3742c6a74f5cdc328a9d4f70ad26626417a47bbbe00000000000000225ba9971c23dd5ce04989e0d55627f6477d07d2a1312ec5cd000000000000003a0873d32b0171ef4420d4a36e7491cc751672222a05054230000000000000001ee51b3d18dcd532b41e01157cf8004cc028f28e305a8e5ecc074e000000000022831339a6ca856166981b025740eba7fd46c2dd7586f7df080000000000000043497fd7f826957108f4a30fd9cec3aeba79972084e90ead01ea3309000000000000000000000000000000000000000000000000000000000000000000000000
+Magic check passed
+checksum check passed
+<== msg = {'magic': '0709110b', 'command': 'sendheaders', 'length': 0, 'checksum': b']\xf6\xe0\xe2', 'payload': {}}
+Magic check passed
+checksum check passed
+<== msg = {'magic': '0709110b', 'command': 'sendcmpct', 'length': 9, 'checksum': b'\xe9/^\xf8', 'payload': {'announce': 0, 'version': 2}}
+Magic check passed
+checksum check passed
+<== msg = {'magic': '0709110b', 'command': 'sendcmpct', 'length': 9, 'checksum': b'\xcc\xfe\x10J', 'payload': {'announce': 0, 'version': 1}}
+Magic check passed
+checksum check passed
+<== msg = {'magic': '0709110b', 'command': 'ping', 'length': 8, 'checksum': b'\xab\xb0M\x82', 'payload': {'nonce': 12676771689995564672}}
+==> cmd = pong, msg = 0b110907706f6e67000000000000000008000000abb04d8280f6e908b0f0ecaf
+Magic check passed
+checksum check passed
+<== msg = {'magic': '0709110b', 'command': 'getheaders', 'length': 1093, 'checksum': b'\xb9\xca\xe5-', 'payload': {'version': 70015, 'hash count': 33, 'block locator hashes': ['00000000000000ea4a22a1816264fad22e327cb6bf82480945a1eb14fd56c3f8', '00000000000000d176c7d9c1a72bdb3b2575b04557b37bf573f5047a775ccdd0', '000000000000007af43e82fe0a78bbc0e1acff252290c68f7209d8b6e2184d96', '0000000000000076dedcfd96d0c3583c5854e94269f162a399bc1342f5ed62ed', '00000000000000628f46a0ae439f74beed47f1518f1e9a26752afa05da94d801', '00000000000000673c8a0619fe6d120d4e5a5cc02e207c915b681adfde28e01f', '000000004a5aaaac17d618193de075f824cc70a18c3f562eda21f831693e4ea2', '00000000000000818d46a45075bf151e9f5f9ae8fe1d4bbd30c314f979ff1721', '00000000000000add17fa53e5382d38cb5653032147becc926ef8509a15aba22', '000000000000001976074fcc9ec5e366518d9798ab6403fc5322e804722ba5ee', '000000000000009191ed27f8f8a3ddfe62ff43452bcf55a014afd71e0e3b5ab5', '000000000000001a22b18c0d298855e6f644fb5f159cc66425cd4908d797b330', '00000000000000a0abb8efc9d3e371c8e891c169d1561b7e7b4d18a84aab2023', '0000000000000011a668eb58c3475e78cfc7ba1f08bd0f6f4a505050e2f3c2dd', '00000000000000bebb477a412666d20af7d4a928c3cdf5746a2c74c3cc8731f4', '000000000000007da1b8e0eab1bb733c2afc73dcccd79d10737141cabffc4516', '00000000000000c83715d6f2f99657a7af0d1c624ff0ca0569dfa7b7b9ee9177', '000000000000005aaeb24cb9165a0a1ec46eedc5f93507fa6b77efb6b9a7f518', '00000000000000df9c62eccda01af80573a50c5d0f221c3bbdef0626a79e1536', '00000000000000d47f652ebcb862a02a1abdce62caec2f1f78a645eda0aaf145', '000000000000019e5daba5bc7b340b157bd1df810a44ddfc55ec068db2f4e989', '000000000000019f22500c47bf02c44322b43c602712803fb367d4c43a12c0b3', '0000000000000befe46c0b89f86e2dda9b220c865a667b94403959ccf2103d9d', '00000000000087011dd9f828dbee5b3e649f57b85f7366272d375e4fd58ed8eb', '000000000000cf1bd3a3ff08c77599c7dd0bfbf04df976f042cc57583cc95150', '0000000000009c591286521df7068b4693279b7a68a2a834d22cfe12f7f77614', '0000000000001d0b34acfaa4c00c267e8d216362465abc21fb9a4ea19e66d15d', '00000000000001dec625ee1ef7323d4ff31ebdc9c70e3c80b999f7c8fbb07756', '00000000000006e8aab445c6eb5d150c4bbb9651dd9e8c5639166526c0327bdb', '000000000000011ece481d09266d07f75b9f9fcf4519bb670dd541b70e5c8132', '00000000000303ef842b4417d0af69079f1a05250caaf4e18d1c337645f08f41', '00000000007b0d6607a8738dff5d141253c7465985f7843065172eb06f857332', '000000000933ea01ad0ee984209779baaec3ced90fa3f408719526f8d77f4943'], 'hash_stop': '0000000000000000000000000000000000000000000000000000000000000000'}}
+Magic check passed
+checksum check passed
+<== msg = {'magic': '0709110b', 'command': 'feefilter', 'length': 8, 'checksum': b'\xe8\x0f\xd1\x9f', 'payload': {'feerate': 1000}}
+Magic check passed
+checksum check passed
+<== msg = {'magic': '0709110b', 'command': 'headers', 'length': 1, 'checksum': b'\x14\x06\xe0X', 'payload': {'count': 0, 'headers': []}}
+Magic check passed
+checksum check passed
+inserted mempool
+<== msg = {'magic': '0709110b', 'command': 'inv', 'length': 37, 'checksum': b'\xe8_\x8e=', 'payload': {'count': 1, 'inventory': [{'type': 1, 'hash': '56d25a69e20f705c53b0e5878636b319bdf2e79b8378c8bf47d2b3b3275624fa'}]}}
+Magic check passed
+checksum check passed
+inserted mempool
+<== msg = {'magic': '0709110b', 'command': 'inv', 'length': 37, 'checksum': b'\xad]\x99\xfa', 'payload': {'count': 1, 'inventory': [{'type': 1, 'hash': 'c4d806c1b1d9bc00455f83f1b9e232984c2e5b1621c2ca17845075cc072aa654'}]}}
+Magic check passed
+checksum check passed
+inserted mempool
+<== msg = {'magic': '0709110b', 'command': 'inv', 'length': 37, 'checksum': b'@\xc4\xc1\x87', 'payload': {'count': 1, 'inventory': [{'type': 1, 'hash': 'd2705f63397691d24a139b47099cf913955ceffdf31adf3a2258a090e80d59f4'}]}}
+Magic check passed
+checksum check passed
+inserted mempool
+<== msg = {'magic': '0709110b', 'command': 'inv', 'length': 37, 'checksum': b'1K\xf7.', 'payload': {'count': 1, 'inventory': [{'type': 1, 'hash': 'b0dece875b5906921a9dd8c06e593dcb2ecb9318692f7b5ab801aa8c5af9795a'}]}}
+Magic check passed
+checksum check passed
+inserted mempool
+<== msg = {'magic': '0709110b', 'command': 'inv', 'length': 73, 'checksum': b'\x97\xfc\xe8\xd1', 'payload': {'count': 2, 'inventory': [{'type': 1, 'hash': '86dd0e9d8d0aef0ef685c68cd5cf1fe6aa4333c5a0f399c9f65d6f393e19b422'}, {'type': 1, 'hash': '8867829fab45a465d21fe5c5eae9ef22a244aa922bdc0c0d5ca3e184e16a5104'}]}}
+Magic check passed
+checksum check passed
+inserted mempool
+<== msg = {'magic': '0709110b', 'command': 'inv', 'length': 109, 'checksum': b'\xb0V\xfbY', 'payload': {'count': 3, 'inventory': [{'type': 1, 'hash': 'aa046a6f99d021fdc6102d34dc329e8f2eb4d4cdd7df95234bd4d630646a2b61'}, {'type': 1, 'hash': '47758700f2eae8d48241f7809f556a07b16eac6de7488ba38511da335ffa5d34'}, {'type': 1, 'hash': 'ce0b2ea228f3ec5f266134757e3d4e92048bed703fa30051436248f4730e5144'}]}}
+Magic check passed
+checksum check passed
+<== msg = {'magic': '0709110b', 'command': 'inv', 'length': 37, 'checksum': b'\x81\xeb/\xc8', 'payload': {'count': 1, 'inventory': [{'type': 1, 'hash': '1ed560d29672dbef207e56aaa0b59c13f58c0947147f4327e767caf11799892a'}]}}
+Magic check passed
+checksum check passed
+inserted mempool
+<== msg = {'magic': '0709110b', 'command': 'inv', 'length': 37, 'checksum': b'y\x88\x7f@', 'payload': {'count': 1, 'inventory': [{'type': 1, 'hash': '8e0d807792a51f9a69b11db12a5f535194e6fad9239503c94a9ee19ed85295b7'}]}}
+Magic check passed
+checksum check passed
+inserted mempool
+<== msg = {'magic': '0709110b', 'command': 'inv', 'length': 37, 'checksum': b'\x9f\x1d#\xf0', 'payload': {'count': 1, 'inventory': [{'type': 1, 'hash': '208a2cf25ac4f818375f9c4694210b4738ffbb6ccca211f982fb02f6ead2c7ae'}]}}
+Magic check passed
+checksum check passed
+<== msg = {'magic': '0709110b', 'command': 'ping', 'length': 8, 'checksum': b'17\xc8N', 'payload': {'nonce': 17801564760742355849}}
+==> cmd = pong, msg = 0b110907706f6e670000000000000000080000003137c84e89e3284ad5dc0bf7
+Magic check passed
+checksum check passed
+inserted mempool
+<== msg = {'magic': '0709110b', 'command': 'inv', 'length': 37, 'checksum': b'\x83]\x97U', 'payload': {'count': 1, 'inventory': [{'type': 1, 'hash': '454d7b53e96f897d43104106d4c326f6d10a391cc19359412f3f183f077a9e16'}]}}
+Magic check passed
+checksum check passed
+inserted mempool
+<== msg = {'magic': '0709110b', 'command': 'inv', 'length': 37, 'checksum': b'M\x1e9\xd3', 'payload': {'count': 1, 'inventory': [{'type': 1, 'hash': 'e84eca2d79160b18fd96a4d4e08c9fb6251a66bafb7b83442cd8d7814e4550d1'}]}}
+Magic check passed
+checksum check passed
+inserted mempool
+<== msg = {'magic': '0709110b', 'command': 'inv', 'length': 37, 'checksum': b'\xf6|h\x18', 'payload': {'count': 1, 'inventory': [{'type': 1, 'hash': '9e86583584be1c770a164b6e8f6e3b8cca7c8874e4924fbd25d27d4cfe395816'}]}}
+Magic check passed
+checksum check passed
+inserted mempool
+<== msg = {'magic': '0709110b', 'command': 'inv', 'length': 37, 'checksum': b'\xa4\xc7sX', 'payload': {'count': 1, 'inventory': [{'type': 1, 'hash': '18cd2942bac7c24282743256c650c467c9e73d6d234f5d461e2fce4fb853f58d'}]}}
+Magic check passed
+checksum check passed
+inserted mempool
+<== msg = {'magic': '0709110b', 'command': 'inv', 'length': 37, 'checksum': b'\xf1z\xb3\xdb', 'payload': {'count': 1, 'inventory': [{'type': 1, 'hash': '2b06ccbd53539158d418ab0c2330a2be90a33fb83a83527b9e364b873370cb30'}]}}
+Magic check passed
+checksum check passed
+inserted mempool
+<== msg = {'magic': '0709110b', 'command': 'inv', 'length': 37, 'checksum': b'\xa8\x13\xe1u', 'payload': {'count': 1, 'inventory': [{'type': 1, 'hash': 'a9c49f4e9cfce784087303fda742dc7a84249d2db2a9e7a11104034bb8d03571'}]}}
+Magic check passed
+checksum check passed
+inserted mempool
+<== msg = {'magic': '0709110b', 'command': 'inv', 'length': 37, 'checksum': b'\xbeL\x88\x00', 'payload': {'count': 1, 'inventory': [{'type': 1, 'hash': '4a3941bad5a1daa121231fb8bdfef6556e57396c5198dd8c7c668aa69aacb637'}]}}
+Magic check passed
+checksum check passed
+<== msg = {'magic': '0709110b', 'command': 'ping', 'length': 8, 'checksum': b'\xfal\xb4R', 'payload': {'nonce': 6951879145655459170}}
+==> cmd = pong, msg = 0b110907706f6e67000000000000000008000000fa6cb452625d3d1640097a60
+Magic check passed
+checksum check passed
+inserted mempool
+<== msg = {'magic': '0709110b', 'command': 'inv', 'length': 73, 'checksum': b'\x82\xd86m', 'payload': {'count': 2, 'inventory': [{'type': 1, 'hash': '480197bf640808da9aba8f2788462184b14eac2cf8470ba7e48965b051d72eef'}, {'type': 1, 'hash': 'c0ffc825ad6b19735ea8788a8415b22b26f7943fd9a6d87980dc1d57d918d14e'}]}}
+Magic check passed
+checksum check passed
+inserted mempool
+<== msg = {'magic': '0709110b', 'command': 'inv', 'length': 37, 'checksum': b'\x83\x01\xe9u', 'payload': {'count': 1, 'inventory': [{'type': 1, 'hash': '4bab5c3f4cdbaae53c1219c90a745c3a982b6678669f535d2967dc312d6d1b50'}]}}
+Magic check passed
+checksum check passed
+inserted mempool
+<== msg = {'magic': '0709110b', 'command': 'inv', 'length': 37, 'checksum': b'\xb9\xe0#\x88', 'payload': {'count': 1, 'inventory': [{'type': 1, 'hash': '1810e2efd02b05b5f7f12242b5f4849ee06538f677d5c990c2163a7c87dab17c'}]}}
+Magic check passed
+checksum check passed
+inserted mempool
+<== msg = {'magic': '0709110b', 'command': 'inv', 'length': 37, 'checksum': b'\x14\xa1\x16^', 'payload': {'count': 1, 'inventory': [{'type': 1, 'hash': 'ecad453121c74c18b477b04e82c619f2c492f27780c2fa2043345c9d8bdbac3d'}]}}
+Magic check passed
+checksum check passed
+<== msg = {'magic': '0709110b', 'command': 'ping', 'length': 8, 'checksum': b'z,\xedb', 'payload': {'nonce': 3915403227551165639}}
+==> cmd = pong, msg = 0b110907706f6e670000000000000000080000007a2ced62c7ec9aa27d4e5636
+Magic check passed
+checksum check passed
+inserted mempool
+<== msg = {'magic': '0709110b', 'command': 'inv', 'length': 37, 'checksum': b'\xb1\xa9<\x82', 'payload': {'count': 1, 'inventory': [{'type': 1, 'hash': '3bd0ac45de6153fabfd1bc0b2deb84850d3660305aa477e9acd78dd59a5b659a'}]}}
+Magic check passed
+checksum check passed
+inserted mempool
+<== msg = {'magic': '0709110b', 'command': 'inv', 'length': 109, 'checksum': b'\x8d\x8am;', 'payload': {'count': 3, 'inventory': [{'type': 1, 'hash': 'ba01c32660b2491ffdd0cfdcce5c13ac4835d5216d9ba3740677a307eabce5d8'}, {'type': 1, 'hash': '6d14de723a562a90d2ecf16fadb3e621e6ca2b5e0bead5ffb557a5df5602d1eb'}, {'type': 1, 'hash': '9863a36bebf829d718d6fcfb5e162cde6fc3cc2cbd837964e48f0a406d05e337'}]}}
+Magic check passed
+checksum check passed
+inserted mempool
+<== msg = {'magic': '0709110b', 'command': 'inv', 'length': 37, 'checksum': b'zz,\xfc', 'payload': {'count': 1, 'inventory': [{'type': 1, 'hash': '358b836b3efa6f7b92ba8ca9881c413ba912554e805ece51e5bc09ed077fd942'}]}}
+Magic check passed
+checksum check passed
+inserted mempool
+<== msg = {'magic': '0709110b', 'command': 'inv', 'length': 37, 'checksum': b'\xb1\x7f\xfd\xf6', 'payload': {'count': 1, 'inventory': [{'type': 1, 'hash': 'ed34de6f7fda069a1ceb66d6e2cb92b209c4309af1a83949eb4edfbbf5e1680a'}]}}
+Magic check passed
+checksum check passed
+inserted mempool
+<== msg = {'magic': '0709110b', 'command': 'inv', 'length': 37, 'checksum': b'l\x8fFs', 'payload': {'count': 1, 'inventory': [{'type': 1, 'hash': 'a3d4f7388fb8e11251ba310514af2d1818d2080115072dd40652ea96cf049396'}]}}
+Magic check passed
+checksum check passed
+<== msg = {'magic': '0709110b', 'command': 'ping', 'length': 8, 'checksum': b'\xa6[\x94\xb8', 'payload': {'nonce': 1260699924550973003}}
+==> cmd = pong, msg = 0b110907706f6e67000000000000000008000000a65b94b84bf638e3e6e77e11
+Magic check passed
+checksum check passed
+inserted mempool
+<== msg = {'magic': '0709110b', 'command': 'inv', 'length': 37, 'checksum': b'\xa0zEx', 'payload': {'count': 1, 'inventory': [{'type': 1, 'hash': '48567deadff6cf75c92920a0a6f821b08d1ca826ba6976fc29e021f3bb71aaa2'}]}}
+Magic check passed
+checksum check passed
+<== msg = {'magic': '0709110b', 'command': 'cmpctblock', 'length': 743, 'checksum': b'\x9d\x80\x85\xd6', 'payload': {'hdr_nonce': '04200020cd6f604cda2f6cc3fba740bf605da308cfaa6bbf3d6a7277320000000000000027f42e6ee461eea0a7704240a56aea170213344e7fc14f671fd95f40a09c022b43ce3162bef4001a3f5fba2a45fcb16fced91845', 'header': {'version': 536879108, 'prev_blockhash': '000000000000003277726a3dbf6baacf08a35d60bf40a7fbc36c2fda4c606fcd', 'merkle_root': '2b029ca0405fd91f674fc17f4e34130217ea6aa5404270a7a0ee61e46e2ef427', 'timestamp': 1647431235, 'bits': '1a00f4be', 'nonce': '2aba5f3f'}, 'nonce': '4518d9ce6fb1fc45', 'shortids_length': 69, 'shortids': ['e07e14d0937e', '809762522dd4', '726608fbe2ce', '0ad8183e1c4e', 'f318c7a72b38', '6cbab82f6380', 'a3fd19c1c1be', 'b9f5ffa6f292', '5165b87aa9c6', 'afff76541c81', '89eaf5fe7f49', 'c573c315c50f', 'fa3fc27c8894', '6b168cda5e65', 'ea1faf84aabb', '65372cb7641a', '5015652fa419', 'a8fcdc9a2340', 'c1a2e294fb00', '3fe4d78f3d58', 'e473db0f577b', '7b5e2820b716', 'a751c17c74c8', '2d9dc74fdcb4', '43f692a35fe7', 'b2d1cc9c47cb', 'ad3ff7f356cc', 'eeb756996d45', '754f77c117e6', '87c4a4a4ec8f', 'c293bc79fe7d', '07f135927b2f', 'b489a5cfe50e', 'eabf201ee7f0', '322f80491d00', '5f95c23d9ce1', '8417057fa877', '2f3bd96706d3', 'a98a811f894a', 'fc3b0115fa5a', 'c0f92fa88040', 'e96a045c61a4', 'b022275ae63f', '190b424f7786', '4747b8d446c1', '580cb3bd8939', 'f439f21d9298', '857b02bf3e24', 'ee3999d9a839', 'a54025f0e7cb', 'e3f1330a9a8b', 'fc0d4902144d', 'bd0b9eeef169', '30841806c2a7', 'fecb33fc7a99', '51169aed3386', 'ed3c202126c4', 'cf56c965c488', 'ebad38be8932', '4a1b6c5c1c04', 'a304c9b3110d', 'b8d5f8b5713f', '47202b5e2d18', 'aee204318bb4', '16be593b44b6', '13b19031f809', 'd5f61847053b', 'ec0607b5d329', 'd5389f1d92e2'], 'prefilledtxn_length': 1, 'prefilledtxn': [{'index': 0, 'tx': {'version': 2, 'tx_in count': 0, 'tx_in': [], 'tx_out count': 1, 'tx_out': [{'satoshis': 1, 'bytes_scriptpubkey': 0, 'scriptpubkey': ''}], 'locktime': 0}}]}}
+==> cmd = getblocktxn, msg = 0b110907676574626c6f636b74786e0022000000cec1c8f00ffd114264721ccd5182b29e540723afddfc30187cb97f0263000000000000000125
+Magic check passed
+checksum check passed
+<== msg = {'magic': '0709110b', 'command': 'blocktxn', 'length': 256, 'checksum': b'\x92.\xa3\x19', 'payload': {'blkhash': '0000000000000063027fb97c1830fcddaf2307549eb28251cd1c72644211fd0f', 'txn_len': 1, 'txn': [{'version': 1, 'tx_in count': 1, 'tx_in': [{'prev_tx_hash': 'e9be97b8927ab399e7857cf0775825cc84b13d5d4a8261e0b67ac0566b95811d', 'prev_tx_out_index': 0, 'bytes_scriptsig': 106, 'sriptsig': '47304402201ea4d951c2a49ae6706a77b0b5f050e38d8ba07540fb1c3ff924d93fbdf6d02102201ff05f92d394064e138b81f5014aab8c3ee26100e84c5c9133f9ca3695840e9401210362821317ec2e96dc009d39be685a53c834c2c3317674b51e000510711fd8ef0c', 'sequence': 'ffffffff'}], 'tx_out count': 2, 'tx_out': [{'satoshis': 329057100, 'bytes_scriptpubkey': 25, 'scriptpubkey': '76a914cc9933d5db876e9b69ce2da3cd6099c7cae9dec688ac'}, {'satoshis': 61405, 'bytes_scriptpubkey': 23, 'scriptpubkey': 'a9149a29a7ef2832334b7c186308450097f06cf6578f87'}], 'locktime': 0}]}}

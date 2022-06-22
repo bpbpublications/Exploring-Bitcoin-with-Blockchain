@@ -1,0 +1,24 @@
+Trying to connect to  ('161.35.142.235', 18333)
+connected
+==> cmd = version, msg = 0b11090776657273696f6e000000000068000000ab22da987d11010001000000000000005582306200000000010000000000000000000000000000000000ffffc0a80009b7ca0100000000000000000000000000000000000000000000000000ecead7fe6f9bf1ee132f4d79546573744167656e743a302e302e312f4e6a2100
+Magic check passed
+checksum check passed
+<== msg = {'magic': '0709110b', 'command': 'version', 'length': 102, 'checksum': b',\t@}', 'payload': {'version': 70015, 'services': 1033, 'timestamp': 1647346261, 'dt': '2022-03-15 17:41:01', 'addr_recv': {'service': 0, 'version': 'IPv4', 'address': '49.205.150.158', 'port': 16512}, 'addr_trans': {'service': 1033, 'version': 'IPv6', 'address': '::', 'port': 0}, 'nonce': 612343816911564613, 'user_agent_size': 16, 'user_agent': b'/Satoshi:0.19.1/', 'block_height': 2189902, 'relay': 1}}
+==> cmd = verack, msg = 0b11090776657261636b000000000000000000005df6e0e2
+Magic check passed
+checksum check passed
+<== msg = {'magic': '0709110b', 'command': 'verack', 'length': 0, 'checksum': b']\xf6\xe0\xe2', 'payload': {}}
+Connection is established
+==> cmd = getaddr, msg = 0b110907676574616464720000000000000000005df6e0e2
+Magic check passed
+checksum check passed
+<== msg = {'magic': '0709110b', 'command': 'sendheaders', 'length': 0, 'checksum': b']\xf6\xe0\xe2', 'payload': {}}
+==> cmd = getaddr, msg = 0b110907676574616464720000000000000000005df6e0e2
+Magic check passed
+checksum check passed
+<== msg = {'magic': '0709110b', 'command': 'ping', 'length': 8, 'checksum': b'2\xe6\x84\xc4', 'payload': {'nonce': 16465718490656875118}}
+==> cmd = pong, msg = 0b110907706f6e6700000000000000000800000032e684c46e222f67bafb81e4
+Magic check passed
+checksum check passed
+<== msg = {'magic': '0709110b', 'command': 'addr', 'length': 31, 'checksum': b't2\x96\x81', 'payload': {'count': 1, 'addrs': [{'timestamp': 1647346261, 'addr': {'service': 1033, 'version': 'IPv4', 'address': '161.35.142.235', 'port': 18333}}]}}
+Received Addr
